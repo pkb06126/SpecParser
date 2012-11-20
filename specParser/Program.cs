@@ -26,7 +26,7 @@ namespace specParser
 
             var xdoc = XDocument.Load(inputFile);
 
-            File.WriteAllText("../../../SpecOutput.html",
+            File.WriteAllText("../../../Output/SpecOutput.html",
                               WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
 
             Console.ReadKey();
