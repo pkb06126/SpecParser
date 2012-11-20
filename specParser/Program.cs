@@ -19,7 +19,7 @@ namespace specParser
             }
             catch (Exception)
             {
-                Console.WriteLine("You must specify a project id.");
+                Console.WriteLine("You must specify an xml document");
                 return;
             }
             var xdoc = XDocument.Load(inputFile);
@@ -27,7 +27,7 @@ namespace specParser
             File.WriteAllText(@"D:\work\SpecParser\specParser\MyTest.html",
                               WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
 
-            Console.ReadKey();
+            //Console.ReadKey();
         }
 
         public static StringWriter WriteToHtml(List<NameSp> nameSps)
