@@ -248,34 +248,6 @@
 					<li>IsVisibleAddNotes should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li>
-		</ul></li><li>ApplyCopyholderTemplateSpecifications<ul class="accordion">
-			<li>Apply Copyholder Template Is Enabled<ul>
-				<li>when selected document is visible and ManageCopyHolderTemplates is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be true</li><li style="color:Red;">passed</li>
-				</ul></li>
-			</ul></li><li>Apply Copyholder Template Is NOT Enabled<ul>
-				<li>when selected document is NOT visible and ManageCopyHolderTemplates is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li><li>when selected document is visible and ManageCopyHolderTemplates is NOT allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li><li>when selected document is visible and ManageCopyHolderTemplates is allowed and DocumentModuleAccess is NOT allowed and Document Read is allowed<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li><li>when selected document is visible and ManageCopyHolderTemplates is allowed and DocumentModuleAccess is allowed and Document Read is NOT allowed<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li>
-			</ul></li><li>Apply Copyholder Template Is NOT Visible<ul>
-				<li>when selected document status is draft<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li><li>when selected document status is inactive<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li><li>when selected document status is obsolete<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be false</li><li style="color:Red;">passed</li>
-				</ul></li>
-			</ul></li><li>Apply Copyholder Template Is Visible<ul>
-				<li>when selected document status is active<ul>
-					<li>IsVisibleApplyCopyholderTemplate should be true</li><li style="color:Red;">passed</li>
-				</ul></li>
-			</ul></li>
 		</ul></li><li>ApprovalHistorySpecifications<ul class="accordion">
 			<li>Approval History Is Enabled<ul>
 				<li>when selected document is visible and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -465,7 +437,7 @@
 		</ul></li><li>DeactivateDocumentSpecifications<ul class="accordion">
 			<li>Deactivate Document Is Enabled<ul>
 				<li>when command is visible and Document Deactivate is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsEnabledDeactivateDocument should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledDeactivateDocument should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>Deactivate Document Is NOT Enabled<ul>
 				<li>when command is NOT visible and Document Deactivate is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -479,11 +451,11 @@
 				</ul></li>
 			</ul></li><li>Deactivate Document Is NOT Visible<ul>
 				<li>when selected document status is draft<ul>
-					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">failed</li>
+					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">passed</li>
 				</ul></li><li>when selected document status is inactive<ul>
-					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">failed</li>
+					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">passed</li>
 				</ul></li><li>when selected document status is obsolete<ul>
-					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">failed</li>
+					<li>IsVisibleDeactivateDocument should be false</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>Deactivate Document Is Visible<ul>
 				<li>when selected document status is active<ul>
@@ -493,7 +465,7 @@
 		</ul></li><li>DeleteDocumentSpecifications<ul class="accordion">
 			<li>Delete Document Is Enabled<ul>
 				<li>when command is visible and Document Delete is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsEnabledDeleteDocument should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledDeleteDocument should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>Delete Document Is NOT Enabled<ul>
 				<li>when command is visible and Document Delete is NOT allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -579,7 +551,7 @@
 		</ul></li><li>NewActiveDocumentSpecifications<ul class="accordion">
 			<li>New Active Document Is Enabled<ul>
 				<li>when command is visible and CreateDocumentViaNew is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsEnabledNewActiveDocument should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledNewActiveDocument should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>New Active Document Is NOT Enabled<ul>
 				<li>when command is visible and CreateDocumentViaNew is NOT allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -627,7 +599,7 @@
 		</ul></li><li>NewBasedOnSelectedSpecifications<ul class="accordion">
 			<li>New Based On Selected Is Enabled<ul>
 				<li>when command is visible and DocumentModuleAccess is allowed and Document Read is allowed and CreateDraftDocumentViaNew is allowed<ul>
-					<li>IsEnabledNewBasedOnSelected should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledNewBasedOnSelected should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>New Based On Selected Is NOT Enabled<ul>
 				<li>when command is visible and DocumentModuleAccess is NOT allowed and Document Read is allowed and CreateDraftDocumentViaNew is allowed<ul>
@@ -645,7 +617,7 @@
 		</ul></li><li>NewDraftDocumentSpecifications<ul class="accordion">
 			<li>New Draft Document Is Enabled<ul>
 				<li>when command is visible and CreateDraftDocumentViaNew is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsEnabledNewDraftDocument should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledNewDraftDocument should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>New Draft Document Is NOT Enabled<ul>
 				<li>when command is visible and CreateDraftDocumentViaNew is NOT allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -769,7 +741,7 @@
 		</ul></li><li>ReinstateDocumentSpecifications<ul class="accordion">
 			<li>Reinstate Document Is Enabled<ul>
 				<li>when command is visible and Document Reinstate is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
-					<li>IsEnabledReinstateDocument should be true</li><li style="color:Red;">failed</li>
+					<li>IsEnabledReinstateDocument should be true</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>Reinstate Document Is NOT Enabled<ul>
 				<li>when command is NOT visible and Document Reinstate is allowed and DocumentModuleAccess is allowed and Document Read is allowed<ul>
@@ -783,9 +755,9 @@
 				</ul></li>
 			</ul></li><li>Reinstate Document Is NOT Visible<ul>
 				<li>when selected document status is active<ul>
-					<li>IsVisibleReinstateDocument should be false</li><li style="color:Red;">failed</li>
+					<li>IsVisibleReinstateDocument should be false</li><li style="color:Red;">passed</li>
 				</ul></li><li>when selected document status is draft<ul>
-					<li>IsVisibleReinstateDocument should be false</li><li style="color:Red;">failed</li>
+					<li>IsVisibleReinstateDocument should be false</li><li style="color:Red;">passed</li>
 				</ul></li>
 			</ul></li><li>Reinstate Document Is Visible<ul>
 				<li>when selected document status is inactive<ul>

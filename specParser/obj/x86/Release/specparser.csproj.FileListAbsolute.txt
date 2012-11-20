@@ -1,0 +1,7 @@
+D:\work\SpecParser\specParser\bin\Release\specParser.exe.config
+D:\work\SpecParser\specParser\bin\Release\results.xml
+D:\work\SpecParser\specParser\bin\Release\results2.xml
+D:\work\SpecParser\specParser\bin\Release\specParser.exe
+D:\work\SpecParser\specParser\bin\Release\specParser.pdb
+D:\work\SpecParser\specParser\obj\x86\Release\specParser.exe
+D:\work\SpecParser\specParser\obj\x86\Release\specParser.pdb
