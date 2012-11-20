@@ -19,7 +19,7 @@ namespace specParser
             //var xdoc = XDocument.Load("specifications.xml");
 
             File.WriteAllText("SpecOutput.html", WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
-            Console.ReadKey();
+
         }
 
         public static StringWriter WriteToHtml(List<NameSp> nameSps)
