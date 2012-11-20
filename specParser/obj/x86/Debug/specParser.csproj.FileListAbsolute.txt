@@ -1,0 +1,20 @@
+c:\users\antoniod\documents\visual studio 2010\Projects\specParser\specParser\bin\Debug\specParser.exe
+c:\users\antoniod\documents\visual studio 2010\Projects\specParser\specParser\bin\Debug\specParser.pdb
+c:\users\antoniod\documents\visual studio 2010\Projects\specParser\specParser\obj\x86\Debug\specParser.exe
+c:\users\antoniod\documents\visual studio 2010\Projects\specParser\specParser\obj\x86\Debug\specParser.pdb
+C:\Users\antoniod\Documents\Visual Studio 2010\Projects\specParser\specParser\bin\Debug\specParser.exe.config
+C:\Users\antoniod\Documents\Visual Studio 2010\Projects\specParser\specParser\bin\Debug\results.xml
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\bin\Debug\specParser.exe.config
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\obj\x86\Debug\specParser.exe
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\obj\x86\Debug\specParser.pdb
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\bin\Debug\results.xml
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\bin\Debug\specParser.exe
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\bin\Debug\specParser.pdb
+C:\Users\ashleys\Documents\My Received Files\specParser\specParser\obj\x86\Debug\ResolveAssemblyReference.cache
+C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\specParser.exe.config
+C:\Users\antoniod\Desktop\specParser\specParser\obj\x86\Debug\specParser.exe
+C:\Users\antoniod\Desktop\specParser\specParser\obj\x86\Debug\specParser.pdb
+C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\results.xml
+C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\specParser.exe
+C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\specParser.pdb
+C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\results2.xml
