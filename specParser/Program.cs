@@ -2,7 +2,6 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
-using System.Text;
 using System.Web.UI;
 using System.Xml.Linq;
 
@@ -26,7 +25,7 @@ namespace specParser
 
             var xdoc = XDocument.Load(inputFile);
 
-            File.WriteAllText("../../../Output/SpecOutput.html",
+            File.WriteAllText("SpecOutput.html",
                               WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
 
             Console.ReadKey();
