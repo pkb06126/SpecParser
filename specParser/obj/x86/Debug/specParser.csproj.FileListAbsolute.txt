@@ -18,3 +18,11 @@ C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\results.xml
 C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\specParser.exe
 C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\specParser.pdb
 C:\Users\antoniod\Desktop\specParser\specParser\bin\Debug\results2.xml
+D:\work\SpecParser\specParser\bin\Debug\specParser.exe.config
+D:\work\SpecParser\specParser\obj\x86\Debug\specParser.exe
+D:\work\SpecParser\specParser\obj\x86\Debug\specParser.pdb
+D:\work\SpecParser\specParser\bin\Debug\results.xml
+D:\work\SpecParser\specParser\bin\Debug\results2.xml
+D:\work\SpecParser\specParser\bin\Debug\specParser.exe
+D:\work\SpecParser\specParser\bin\Debug\specParser.pdb
+D:\work\SpecParser\specParser\obj\x86\Debug\specparser.csprojResolveAssemblyReference.cache

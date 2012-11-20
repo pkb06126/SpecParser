@@ -66,7 +66,7 @@ namespace specParser
                                         writer.RenderBeginTag(HtmlTextWriterTag.Li);
                                         writer.Write(spec.Name);
                                         writer.RenderEndTag();
-                                        writer.AddStyleAttribute(HtmlTextWriterStyle.Color, "Green");
+                                        writer.AddStyleAttribute(HtmlTextWriterStyle.Color, "Red");
                                         writer.RenderBeginTag(HtmlTextWriterTag.Li);
                                         writer.Write(spec.Status);
                                         writer.RenderEndTag();
