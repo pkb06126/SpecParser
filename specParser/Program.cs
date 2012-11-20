@@ -13,15 +13,17 @@ namespace specParser
         static void Main(string[] args)
         {
             string inputFile;
-            try
-            {
-                inputFile = args[0];
-            }
-            catch (Exception)
-            {
-                Console.WriteLine("You must specify an xml document");
-                return;
-            }
+            //try
+            //{
+            //    inputFile = args[0];
+            //}
+            //catch (Exception)
+            //{
+            //    Console.WriteLine("You must specify an xml document");
+            //    return;
+            //}
+            inputFile = "results.xml";
+
             var xdoc = XDocument.Load(inputFile);
 
             File.WriteAllText("../../SpecOutput.html",
