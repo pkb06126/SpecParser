@@ -51,12 +51,6 @@
   <ItemGroup>
     <Content Include="img\minus.gif" />
     <Content Include="img\plus.gif" />
-    <Content Include="results.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
-    <Content Include="results2.xml">
-      <CopyToOutputDirectory>Always</CopyToOutputDirectory>
-    </Content>
     <Content Include="scripts\jquery.nestedAccordion.js" />
     <Content Include="style.css" />
   </ItemGroup>

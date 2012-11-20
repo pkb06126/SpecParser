@@ -11,11 +11,12 @@ namespace specParser
     {
         static void Main(string[] args)
         {
-            if(args.Count() != 1)
+            if (args.Count() != 1)
                 throw new ArgumentException("You need to supply a input file");
-           
+
             var inputFile = args[0];
             var xdoc = XDocument.Load(inputFile);
+            //var xdoc = XDocument.Load("specifications.xml");
 
             File.WriteAllText("SpecOutput.html", WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
             Console.ReadKey();
@@ -106,7 +107,7 @@ namespace specParser
                                       Context = contextName,
                                       Spec = specificationName,
                                       Status = specificationStatus,
-                                      Namesp = (typeName.Split('+')[0]).Split('.')[3]
+                                      Namesp = typeName.Split('+')[0]
                                   }).ToList();
 
             return specifications;
