@@ -1,0 +1,47 @@
+﻿body { font-family: Arial;font-size: 12px; }
+
+/* --- Headings  --- */
+h1, h2 {margin-bottom:1em}
+
+h1 {margin:.5em 2px 1.5em; font-family:georgia,'times new roman',times,serif; font-size:2.5em; font-weight:normal; color:#f60}
+
+h3 a, h4 a {padding:3px 10px}
+
+h2, h3, h4{font-size:1em}
+
+/* --- Links --- */
+a {padding:1px; border:1px solid #e0e0e0; color:#05b}
+
+a:hover, a:focus, a:active {border-color:#bcd; text-decoration:none; outline:0 none}
+
+/* --- Accordion --- */
+.js .accordion {visibility: hidden}
+
+.accordion {}
+
+.accordion li {list-style-type:none}
+
+.accordion li.last-child {list-style-type:disc}
+
+.accordion .outer {border:1px solid #e0e0e0; border-width:0 1px 1px}
+
+.accordion .inner {margin-bottom:0; padding:10px 20px; position:relative; overflow:hidden}
+
+.accordion .inner .inner {padding-bottom:0}
+
+.accordion .h {padding-top:.3em}
+
+.accordion p {margin: 0; padding-bottom: 1em;	font-size: .9em}
+
+/*  
+  Add styles for all links in the 'accordion':
+.accordion a {...}
+*/
+
+a.trigger {display:block; padding: 5px 0px 5px 20px; background-image:url(img/plus.gif); background-repeat: no-repeat; background-position: 1px 50%;  font-weight:700}
+
+a.trigger.open {background-image: url(img/minus.gif)}
+
+a.trigger {background-color: #f0f0f0}
+
+a.trigger.open {border-color: #dadada; background-color:#e7e7e7}
