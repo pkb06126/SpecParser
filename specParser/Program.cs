@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO;
 using System.Linq;
+using System.Text;
 using System.Web.UI;
 using System.Xml.Linq;
 
@@ -9,16 +10,23 @@ namespace specParser
 {
     public class Program
     {
-        static void Main()
+        static void Main(string[] args)
         {
-            var xdoc = XDocument.Load("results2.xml");
-            //GetNameSps(Parse(xdoc));
-            File.WriteAllText(@"C:\Users\antoniod\Desktop\specParser\specParser\MyTest.html",
+            string inputFile;
+            try
+            {
+                inputFile = args[0];
+            }
+            catch (Exception)
+            {
+                Console.WriteLine("You must specify a project id.");
+                return;
+            }
+            var xdoc = XDocument.Load(inputFile);
+
+            File.WriteAllText(@"D:\work\SpecParser\specParser\MyTest.html",
                               WriteToHtml(DefineStructure(Parse(xdoc))).ToString());
-            //Print2(GetNamespaces(Sort(Parse(xdoc))));
 
-
-            //File.WriteAllText(@"c:\temp\MyTest.html", Render().ToString());
             Console.ReadKey();
         }
 
