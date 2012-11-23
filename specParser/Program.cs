@@ -66,7 +66,13 @@ namespace specParser
                                         writer.RenderBeginTag(HtmlTextWriterTag.Li);
                                         writer.Write(spec.Name);
                                         writer.RenderEndTag();
-                                        writer.AddStyleAttribute(HtmlTextWriterStyle.Color, "Red");
+                                        
+                                        var colour = "Black";
+                                        if (spec.Status.Equals("passed")) colour = "Green";
+                                        if (spec.Status.Equals("failed")) colour = "Red";
+                                        if (spec.Status.Equals("ignored")) colour = "Brown";
+
+                                        writer.AddStyleAttribute(HtmlTextWriterStyle.Color, colour);
                                         writer.RenderBeginTag(HtmlTextWriterTag.Li);
                                         writer.Write(spec.Status);
                                         writer.RenderEndTag();
